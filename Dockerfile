@@ -1,5 +1,5 @@
 #
-FROM openjdk:17
+FROM eclipse-temurin:17
 EXPOSE 8085
 COPY ./target/his_service.jar ./
 WORKDIR ./
